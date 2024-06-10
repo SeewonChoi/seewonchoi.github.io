@@ -175,6 +175,21 @@ button.btn, input.btn {
   }
 }
 
+.hero-news {
+  padding-top: 60px;
+  padding-left: 50px;
+  display: table;
+  @include bp-medium {
+    width: 100%;
+  }
+  @include bp-small {
+    width: 100%;
+  }
+  @include bp-xsmall {
+    width: 100%;
+  }
+}
+
 /*--------------------------------------------------------------
 	2.1 Contact
 --------------------------------------------------------------*/
