@@ -139,6 +139,11 @@ button.btn, input.btn {
     margin-top: 10px;
     @extend %opensans;
   }
+  h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    @extend %opensans;
+  }
   p {
     margin: 0.5em 3em;
     font-size: 14px;
