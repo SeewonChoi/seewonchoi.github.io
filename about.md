@@ -161,6 +161,7 @@ $ logout
  <head>
    <meta charset="UTF-8">
    <title>title</title>
+   <meta name="google-site-verification" content="ySta1sOAZbWkSbaGV_neZefiqXPPNi3ne754l7oMkT8" />
  </head>
  <body>
 
