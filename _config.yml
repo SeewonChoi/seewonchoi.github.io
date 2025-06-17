@@ -92,7 +92,7 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2024 Seewon Choi'
+footer_text: '© 2025 Seewon Choi'
 admin_name: ''
 google_analytics: "G-C7X9JBX06D" # Update with your own tracking ID
 enable_contact: false
@@ -101,5 +101,5 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-#  - { url: 'CV.pdf', text: 'CV' }
+  - { url: 'CV.pdf', text: 'CV' }
 #  - { url: '/about', text: 'About' }
