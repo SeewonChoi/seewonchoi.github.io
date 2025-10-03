@@ -1,33 +1,33 @@
 <div class="container">
-
   <div class="row">
-
     <div class="col-md-12">
-
       <div class="hero-container">
-
         <div class="hero-content">
-
+          
           <div class="row">
             <div class="left">
-              <img src="img/profile.jpg">
+              <img style="margin-top:25px" src="img/profile.jpg">
               <h1 class="text-center" style="margin-bottom: 0;">{{site.title}}</h1>
               <p style="margin-top:0; font-size: smaller;">최시원</p>
+              <p style="margin-top:0; font-size: smaller;">CIS PhD @ UPenn</p>
               <div class="hero-buttons">
-                <a href="https://github.com/SeewonChoi"><button><i class="fa-brands fa-github"></i></button></a>
                 <a href="mailto:seewon@seas.upenn.edu"><button><i class="fa fa-envelope"></i></button></a>
-                <a href=https://uk.linkedin.com/in/seewon-choi-86256119b><button><i class="fa-brands fa-linkedin-in"></i></button></a>
                 <a href=https://scholar.google.com/citations?user=TmtxOw0AAAAJ&hl=en&authuser=2><button><i class="fa-brands fa-google-scholar"></i></button></a>
+                <a href="https://github.com/SeewonChoi"><button><i class="fa-brands fa-github"></i></button></a>
+                <a href=https://uk.linkedin.com/in/seewon-choi-86256119b><button><i class="fa-brands fa-linkedin-in"></i></button></a>
               </div>
             </div>
             <div class="right">
               <p>
-                Hi, I'm a PhD student in Computer and Information Science at the University of Pennsylvania, 
+                Hi, I'm a third year PhD student in Computer and Information Science at the University of Pennsylvania, 
                 advised by <a href="https://www.cis.upenn.edu/~alur/">Rajeev Alur</a>. 
-                I am currently developing more efficient and scalable ways to compose black-box (symbolic) programs and neural networks 
-                within neurosymbolic learning frameworks.
-                I am also exploring the applications of these approaches in robust and interpretable clinical decision-making. <br> <br> 
-
+                <br><br>
+                My research aims to develop trustworthy AI models for real-world deployment, 
+                particularly in the healthcare domain.
+                I work on neurosymbolic approaches that combine the strengths of neural networks and symbolic reasoning
+                to improve robustness and interpretability. 
+                Currently, I am applying these methods to the early diagnosis of critical conditions, grounding them in clinical knowledge.     
+                <br><br>
                 Previously, I received my Bachelor's degree from the University of Cambridge, 
                 where I worked on <a href="https://sites.google.com/site/myrep2rep/home">rep2rep</a> with <a href="https://www.cl.cam.ac.uk/~mj201/">Mateja Jamnik</a>.
               </p>
@@ -35,31 +35,49 @@
           </div>
 
           <div class="hero-news">
-          <h3>Updates</h3>
-          <div class="news-block">
-            <b>[Apr 2025]</b>
-            <p style="margin-left: 15px;">&#x2022; <i>CTSketch: Compositional Tensor Sketching for Scalable Neurosymbolic Learning</i> </br>
-            <a href="https://arxiv.org/abs/2503.24123"> [paper] </a><a href="https://debugml.github.io/ctsketch/"> [blog] </a><a href="https://github.com/alaiasolkobreslin/CTSketch"> [code] </a></p>
-            <p style="margin-left: 15px; font-size: small;"><b>S Choi</b>*, Alaia Solko-Breslin*, Rajeev Alur, Eric Wong</p>
-          </div>
-          <div class="news-block">
-            <b>[Dec 2024]</b> I will be attending NeurIPS 2024
-            <p style="margin-left: 15px;">&#x2022; <i>Data Efficient Learning with Neural Programs</i> <a href="https://arxiv.org/abs/2406.06246"> [paper] </a><a href="https://debugml.github.io/neural-programs/"> [blog] </a><a href="https://github.com/alaiasolkobreslin/ISED/tree/v1.0.0"> [code] </a></p>
-            <p style="margin-left: 15px; font-size: small;">Alaia Solko-Breslin, <b>S Choi</b>, Ziyang Li, Neelay Velingker, Rajeev Alur, Mayur Naik, Eric Wong</p>
-          </div>
-          <div class="news-block">
-            <b>[Jun 2024]</b> I will be attending PLDI 2024
-          </div>
+            <h3>Updates</h3>
             <div class="news-block">
-              <b>[Aug 2023]</b> I will be starting my PhD at UPenn
+              <b>[Dec 25]</b> I will be presenting <a href=https://neurips.cc/virtual/2025/poster/116184>CTSketch</a> @ NeurIPS 2025
+            </div>
+            <div class="news-block">
+              <b>[Dec 24]</b> I will be presenting <a href=https://neurips.cc/virtual/2024/poster/95230>ISED</a> @ NeurIPS 2024
+            </div>
+            <div class="news-block">
+              <b>[Jun 24]</b> I will be attending PLDI 2024
+            </div>
           </div>
-
+          <div class="hero-news">
+            <h3>Preprints</h3>
+            <div class="news-block">
+              <p style="margin-left: 15px;">&#x2022; <i>KardiaLM: A Foundation Model for ECG Comprehension</i> <a href="https://kardia-lm.github.io"> <i class="fa-solid fa-link"></i> </a></p>
+              <p style="margin-left: 20px; font-size: small;">Neelay Velingker*, <b>S Choi</b>*, Mayank Keoliya*, Alaia Solko-Breslin*, Rajeev Alur, Mayur Naik, Eric Wong</p>
+            </div>
+            <div class="news-block">
+              <p style="margin-left: 15px;">&#x2022; <i>Stable Prediction of Adverse Events in Medical Time-Series Data</i><a href="https://github.com/SeewonChoi/CAREBench"> <i class="fa-brands fa-github"></i> </a></p>
+              <p style="margin-left: 20px; font-size: small;"><b>S Choi</b>*, Mayank Keoliya*, Rajeev Alur, Mayur Naik, Eric Wong</p>
+            </div>
+          </div>
+          <div class="hero-news">
+            <h3>Publications</h3>
+            <div class="news-block">
+              <p style="margin-left: 15px;">&#x2022; <i>CTSketch: Compositional Tensor Sketching for Scalable Neurosymbolic Learning</i>
+              <a href="https://arxiv.org/abs/2503.24123"> <i class="fa-solid fa-file"></i> </a><a href="https://github.com/alaiasolkobreslin/CTSketch"><i class="fa-brands fa-github"></i> </a></p>
+              <p style="margin-left: 20px; font-size: small;"><b>S Choi</b>*, Alaia Solko-Breslin*, Rajeev Alur, Eric Wong</p>
+              <p style="margin-left: 20px; font-size: small;">NeurIPS 2025</p>
+            </div>
+            <div class="news-block">
+              <p style="margin-left: 15px;">&#x2022; <i>Data Efficient Learning with Neural Programs</i> <a href="https://arxiv.org/abs/2406.06246"> <i class="fa-solid fa-file"></i> </a><a href="https://debugml.github.io/neural-programs/"> <i class="fa-solid fa-link"></i> </a><a href="https://github.com/alaiasolkobreslin/ISED/tree/v1.0.0"> <i class="fa-brands fa-github"></i> </a></p>
+              <p style="margin-left: 20px; font-size: small;">Alaia Solko-Breslin, <b>S Choi</b>, Ziyang Li, Neelay Velingker, Rajeev Alur, Mayur Naik, Eric Wong</p>
+              <p style="margin-left: 20px; font-size: small;">NeurIPS 2024</p>
+            </div>
+            <div class="news-block">
+              <p style="margin-left: 15px;">&#x2022; <i>Generation of Visual Representations for Multi-Modal Mathematical Knowledge</i> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/30586"> <i class="fa-solid fa-file"></i> </a><a href="https://sites.google.com/site/myrep2rep/home"> <i class="fa-solid fa-link"></i> </a><a href="https://github.com/danielraggi/rep2rep"> <i class="fa-brands fa-github"></i> </a></p>
+              <p style="margin-left: 20px; font-size: small;">Lianlong Wu*, <b>S Choi*</b>, Daniel Raggi*, Aaron Stockdill, Grecia Garcia Garcia, Fiorenzo Colarusso, Peter C.H. Cheng, Mateja Jamnik</p>
+              <p style="margin-left: 20px; font-size: small;">AAAI 2024 Demo</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-
-
-
 </div>
