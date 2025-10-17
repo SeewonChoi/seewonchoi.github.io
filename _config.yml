@@ -101,5 +101,5 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: 'CV.pdf', text: 'CV' }
+  - { url: 'Seewon_Choi_CV.pdf', text: 'CV' }
 #  - { url: '/about', text: 'About' }
